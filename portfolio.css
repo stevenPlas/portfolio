@@ -34,7 +34,26 @@ footer{
 
 h1{ text-align: center;}
 
+table.center{
+	margin-left: auto;
+	margin-right: auto;
+	border: 2px solid;
+	border-collapse: collapse;
+	text-align: center;
+	font-size: 2em;
+}
 
+.center th { color:black; }
+
+.center, td, th { border: 1px solid; text-decoration: none;}
+
+.center a {  text-decoration: none; }
+
+.center a:link { color: blue; }
+
+.center a:visited { color: blue; }
+
+.center a:hover { color: #7ab55c;}
 
 #about{
 	background-color: #f2f2f2;
